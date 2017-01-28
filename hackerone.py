@@ -1,4 +1,5 @@
 import json
+import io
 from datetime import datetime
 
 epoch = datetime(1970, 1, 1)
@@ -14,11 +15,11 @@ def epoch_seconds(date):
     return timedelta
 
 
-def open_vulnerabilities(file):
+def open_vulnerabilities(vulnerability_file):
     """This function opens the vulnerabilities file and returns the
        vulnerabilities which haven't been resolved yet.
     """
-    with open(file) as json_data:
+    with open(vulnerability_file) as json_data:
         vulnerability_data = json.load(json_data)
     vulnerabilities_to_look_at = []
     for vulnerability_dict in vulnerability_data:
@@ -130,15 +131,36 @@ def display_results(priorities):
         i += 1
     return vulnerabilities_in_order
 
+def json_priorities(priorities, all_vulnerabilities, vulnerability_file):
+    with open(vulnerability_file) as json_data:
+        vulnerability_data = json.load(json_data)
+    priority_add = []
+    for item in priorities:
+        print item
+        for vulnerability_dict in vulnerability_data:
+            if vulnerability_dict["id"] == item[0]:
+                priority_add.append(vulnerability_dict)
+    with io.open('priorities_in.json','wb') as outfile:
+        json.dump(priority_add,outfile)
+        
+        
+       
+    #     vulnerability_list.append(all_vulnerabilities[item[0]])
+    # print vulnerability_list
+    # with open(json_priorities.json,'wb') as outfile:
+    #     json.dump(row,json_priorities.json)
+
+
 
 if __name__ == "__main__":
-    actions = open_vulnerabilities('vulnerabilities.json')
+    all_vulnerabilities = open_vulnerabilities('vulnerabilities.json')
     data_on_open_vulnerabilities = data_on_open_vulnerabilities(
-        actions, 'actions.json')
+        all_vulnerabilities, 'actions.json')
     up_down = up_down(data_on_open_vulnerabilities)
     priorities = prioritize(up_down)
-    print priorities
     display = display_results(priorities)
+    json_priorities = json_priorities(priorities, all_vulnerabilities, 'vulnerabilities.json')
+
 
 # Reddit Algorithm
 # def score(ups, downs):
