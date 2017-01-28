@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body background="static/white-paint-cracks-1996986_1920.jpg">
+        <img src="http://www.bateman-group.com/wp-content/uploads/2015/04/hackerone-logo-web.png">
+        <div style="text-align: center;">
+            <h1> Vulnerabilities </h1>
+                        <pre>
+                            <table style="margin-left:auto;margin-right:auto;font-family:Georgia;color:red;font-weight:bold;">
+                                    <tr>
+                                           
+                                            <th> Vulnerability #</th>
+                                    </tr>
+                      
+                                     
+                               {% for priority in priorities %}
+                                   <tr>
+                                          <td>{{priority}}</td>
+                                    </tr>
+                                {% endfor %}
+                        </table>
+            </pre>
+            
+        </body>
+    </html>

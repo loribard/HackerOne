@@ -1,0 +1,568 @@
+[
+  {
+    "id": 0,
+    "handle": "salomon"
+  },
+  {
+    "id": 1,
+    "handle": "montrail"
+  },
+  {
+    "id": 2,
+    "handle": "the_north_face"
+  },
+  {
+    "id": 3,
+    "handle": "la_sportiva"
+  },
+  {
+    "id": 4,
+    "handle": "new_balance"
+  },
+  {
+    "id": 5,
+    "handle": "vasque"
+  },
+  {
+    "id": 6,
+    "handle": "nike"
+  },
+  {
+    "id": 7,
+    "handle": "brooks"
+  },
+  {
+    "id": 8,
+    "handle": "strava"
+  },
+  {
+    "id": 9,
+    "handle": "fitbit"
+  },
+  {
+    "id": 10,
+    "handle": "clifbar"
+  },
+  {
+    "id": 11,
+    "handle": "hoka"
+  },
+  {
+    "id": 12,
+    "handle": "altra"
+  },
+  {
+    "id": 13,
+    "handle": "patagonia"
+  }
+]%                                                                                                                 ➜  interview-data cat users.json 
+[
+  {
+    "id": 0,
+    "username": "kaci_lickteig"
+  },
+  {
+    "id": 1,
+    "username": "magda_boulet"
+  },
+  {
+    "id": 2,
+    "username": "caroline_boller"
+  },
+  {
+    "id": 3,
+    "username": "stephanie_howe"
+  },
+  {
+    "id": 4,
+    "username": "kara_goucher"
+  },
+  {
+    "id": 5,
+    "username": "sally_mcrae"
+  },
+  {
+    "id": 6,
+    "username": "yiou_wang"
+  },
+  {
+    "id": 7,
+    "username": "darcy_piceu"
+  },
+  {
+    "id": 8,
+    "username": "hayden_hawks"
+  },
+  {
+    "id": 9,
+    "username": "ian_sharman"
+  },
+  {
+    "id": 10,
+    "username": "sage_canaday"
+  },
+  {
+    "id": 11,
+    "username": "jim_walmsley"
+  },
+  {
+    "id": 12,
+    "username": "jeff_browning"
+  },
+  {
+    "id": 13,
+    "username": "zach_miller"
+  },
+  {
+    "id": 14,
+    "username": "killian_jornet"
+  },
+  {
+    "id": 15,
+    "username": "scott_jurek"
+  },
+  {
+    "id": 16,
+    "username": "rob_krar"
+  },
+  {
+    "id": 17,
+    "username": "dylan_bowman"
+  },
+  {
+    "id": 18,
+    "username": "tim_tollefson"
+  },
+  {
+    "id": 19,
+    "username": "david_laney"
+  },
+  {
+    "id": 20,
+    "username": "hillary_so"
+  },
+  {
+    "id": 21,
+    "username": "sam_willis"
+  },
+  {
+    "id": 22,
+    "username": "veronica_jaye"
+  },
+  {
+    "id": 23,
+    "username": "a74b97b3a0a212c6"
+  },
+  {
+    "id": 24,
+    "username": "5c7e431d8df86d46"
+  },
+  {
+    "id": 25,
+    "username": "11607b73b233aa23"
+  },
+  {
+    "id": 26,
+    "username": "15da46d0096db12a"
+  },
+  {
+    "id": 27,
+    "username": "6edcdf35fa10c749"
+  },
+  {
+    "id": 28,
+    "username": "88ce5ca316e25d7d"
+  },
+  {
+    "id": 29,
+    "username": "e0f06a828070b3a6"
+  },
+  {
+    "id": 30,
+    "username": "95952f11f7324776"
+  },
+  {
+    "id": 31,
+    "username": "1a003bb11ef2099b"
+  },
+  {
+    "id": 32,
+    "username": "c5178914bd449a9f"
+  },
+  {
+    "id": 33,
+    "username": "ed3e6dac69dddfca"
+  },
+  {
+    "id": 34,
+    "username": "8fe57f52314b4a94"
+  },
+  {
+    "id": 35,
+    "username": "38c34420c3239b65"
+  },
+  {
+    "id": 36,
+    "username": "28b8209992897061"
+  },
+  {
+    "id": 37,
+    "username": "c99cc3c3e144ffde"
+  },
+  {
+    "id": 38,
+    "username": "0ad1e9d01bf5a0c4"
+  },
+  {
+    "id": 39,
+    "username": "7e8341a567b9b121"
+  },
+  {
+    "id": 40,
+    "username": "d3371e7f158da396"
+  },
+  {
+    "id": 41,
+    "username": "fe2ac69a3040aa3a"
+  },
+  {
+    "id": 42,
+    "username": "d2c08c279d3d1f2e"
+  },
+  {
+    "id": 43,
+    "username": "c9c438f851d8765f"
+  },
+  {
+    "id": 44,
+    "username": "f3bc5fa8d4d8611d"
+  },
+  {
+    "id": 45,
+    "username": "66e03f1f501fdeba"
+  },
+  {
+    "id": 46,
+    "username": "a10addb31b010373"
+  },
+  {
+    "id": 47,
+    "username": "fb64a404f2bd1690"
+  },
+  {
+    "id": 48,
+    "username": "ecee46fc81434375"
+  },
+  {
+    "id": 49,
+    "username": "4f89a22e67b91ae8"
+  },
+  {
+    "id": 50,
+    "username": "adcb9b8e42b8b8b0"
+  },
+  {
+    "id": 51,
+    "username": "541b26acea40b6f8"
+  },
+  {
+    "id": 52,
+    "username": "fd37e96cb2c1f369"
+  },
+  {
+    "id": 53,
+    "username": "3c3f60c983e2a94e"
+  },
+  {
+    "id": 54,
+    "username": "21863fc9d1c453de"
+  },
+  {
+    "id": 55,
+    "username": "71b02928ee91ebd6"
+  },
+  {
+    "id": 56,
+    "username": "0b1fa80d02a4bdf0"
+  },
+  {
+    "id": 57,
+    "username": "bd2e28b6bbcad617"
+  },
+  {
+    "id": 58,
+    "username": "149cb57e5409177a"
+  },
+  {
+    "id": 59,
+    "username": "d3f754b780207d74"
+  },
+  {
+    "id": 60,
+    "username": "25fd50e03b4afa5d"
+  },
+  {
+    "id": 61,
+    "username": "1d7e984c2d6b9a84"
+  },
+  {
+    "id": 62,
+    "username": "766109d8db0d3873"
+  },
+  {
+    "id": 63,
+    "username": "1ac646878738ceb8"
+  },
+  {
+    "id": 64,
+    "username": "4ccd9257764abfa3"
+  },
+  {
+    "id": 65,
+    "username": "c1191f7a35b5cf02"
+  },
+  {
+    "id": 66,
+    "username": "b6ef2e1f1bddf81f"
+  },
+  {
+    "id": 67,
+    "username": "1fcb088fcbbc75a8"
+  },
+  {
+    "id": 68,
+    "username": "6d087bcedf67d243"
+  },
+  {
+    "id": 69,
+    "username": "aea8e5fbc4c802fa"
+  },
+  {
+    "id": 70,
+    "username": "52e57154f8c3ee50"
+  },
+  {
+    "id": 71,
+    "username": "fa65808c0204afb1"
+  },
+  {
+    "id": 72,
+    "username": "699fe0d60529ba62"
+  },
+  {
+    "id": 73,
+    "username": "b634bdc4b7cff572"
+  },
+  {
+    "id": 74,
+    "username": "463e268f88400b05"
+  },
+  {
+    "id": 75,
+    "username": "254c6b49923f939b"
+  },
+  {
+    "id": 76,
+    "username": "1d82a6796dc2047a"
+  },
+  {
+    "id": 77,
+    "username": "9cdce0d418500748"
+  },
+  {
+    "id": 78,
+    "username": "756adf03db9eee84"
+  },
+  {
+    "id": 79,
+    "username": "6fb432559820bff0"
+  },
+  {
+    "id": 80,
+    "username": "1444cb733a06f88a"
+  },
+  {
+    "id": 81,
+    "username": "18702f558077b9b3"
+  },
+  {
+    "id": 82,
+    "username": "a051b62a729a53dc"
+  },
+  {
+    "id": 83,
+    "username": "3ea80d17a6c9cc12"
+  },
+  {
+    "id": 84,
+    "username": "32452d8dd03badd9"
+  },
+  {
+    "id": 85,
+    "username": "88273fa52901ba62"
+  },
+  {
+    "id": 86,
+    "username": "affcbb94584c0f45"
+  },
+  {
+    "id": 87,
+    "username": "3b478d5a082f9db1"
+  },
+  {
+    "id": 88,
+    "username": "19c9a5dca15dddaa"
+  },
+  {
+    "id": 89,
+    "username": "d87614de7d9e79f9"
+  },
+  {
+    "id": 90,
+    "username": "751125b2b4d5bf53"
+  },
+  {
+    "id": 91,
+    "username": "c101dc0e6cc50ab1"
+  },
+  {
+    "id": 92,
+    "username": "224369041eb97c01"
+  },
+  {
+    "id": 93,
+    "username": "43b4d647ff50eea2"
+  },
+  {
+    "id": 94,
+    "username": "c845e42e0da7225c"
+  },
+  {
+    "id": 95,
+    "username": "eaab97136ceff7f4"
+  },
+  {
+    "id": 96,
+    "username": "e286d89b102a8dc5"
+  },
+  {
+    "id": 97,
+    "username": "4f7bdc49ebd5a9a8"
+  },
+  {
+    "id": 98,
+    "username": "d0127753821f8e69"
+  },
+  {
+    "id": 99,
+    "username": "d632c3671be9dbdb"
+  },
+  {
+    "id": 100,
+    "username": "08c61e931a762c27"
+  },
+  {
+    "id": 101,
+    "username": "c9dd3af63b6ae78f"
+  },
+  {
+    "id": 102,
+    "username": "6cc69606ae0cff18"
+  },
+  {
+    "id": 103,
+    "username": "0ee13785cfaecf65"
+  },
+  {
+    "id": 104,
+    "username": "ae5b3fbca1bd49d3"
+  },
+  {
+    "id": 105,
+    "username": "459a81680fffd997"
+  },
+  {
+    "id": 106,
+    "username": "7afc5fd944a1120d"
+  },
+  {
+    "id": 107,
+    "username": "0f1d0226a857f440"
+  },
+  {
+    "id": 108,
+    "username": "69aa3e61afffe318"
+  },
+  {
+    "id": 109,
+    "username": "9a25f34b3015843d"
+  },
+  {
+    "id": 110,
+    "username": "d787bdde98d15dce"
+  },
+  {
+    "id": 111,
+    "username": "27fcffd31e9ea48b"
+  },
+  {
+    "id": 112,
+    "username": "cfdab23ae490c522"
+  },
+  {
+    "id": 113,
+    "username": "15adf791bf2570a2"
+  },
+  {
+    "id": 114,
+    "username": "ac03575a764f9a15"
+  },
+  {
+    "id": 115,
+    "username": "052e2f196b81a8f7"
+  },
+  {
+    "id": 116,
+    "username": "7d008befbc22d61b"
+  },
+  {
+    "id": 117,
+    "username": "ec43114b35ca30ca"
+  },
+  {
+    "id": 118,
+    "username": "0e8b212bbd5cad70"
+  },
+  {
+    "id": 119,
+    "username": "fe12e683e28efa9f"
+  },
+  {
+    "id": 120,
+    "username": "82b67eacf1ba5f9d"
+  },
+  {
+    "id": 121,
+    "username": "0cd363af558bd2cc"
+  },
+  {
+    "id": 122,
+    "username": "6ee8c5e63488f59f"
+  },
+  {
+    "id": 123,
+    "username": "scammer1"
+  },
+  {
+    "id": 124,
+    "username": "scammer91"
+  },
+  {
+    "id": 125,
+    "username": "scammer12"
+  },
+  {
+    "id": 126,
+    "username": "scammer81"
+  }
+]
